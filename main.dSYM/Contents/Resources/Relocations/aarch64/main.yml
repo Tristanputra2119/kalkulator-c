@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ngurah/Documents/C/Kalkulator/main'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _clrscr, symObjAddr: 0x0, symBinAddr: 0x100002B3C, symSize: 0x1C }
+  - { offset: 0x41, size: 0x8, addend: 0x0, symName: _clrscr, symObjAddr: 0x0, symBinAddr: 0x100002B3C, symSize: 0x1C }
+  - { offset: 0x56, size: 0x8, addend: 0x0, symName: _inputAngka, symObjAddr: 0x1C, symBinAddr: 0x100002B58, symSize: 0x80 }
+  - { offset: 0x7E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x9C, symBinAddr: 0x100002BD8, symSize: 0x504 }
+  - { offset: 0x124, size: 0x8, addend: 0x0, symName: _tambah, symObjAddr: 0x5C8, symBinAddr: 0x100003104, symSize: 0x20 }
+  - { offset: 0x15A, size: 0x8, addend: 0x0, symName: _kurang, symObjAddr: 0x5E8, symBinAddr: 0x100003124, symSize: 0x20 }
+  - { offset: 0x190, size: 0x8, addend: 0x0, symName: _kali, symObjAddr: 0x608, symBinAddr: 0x100003144, symSize: 0x20 }
+  - { offset: 0x1C6, size: 0x8, addend: 0x0, symName: _bagi, symObjAddr: 0x628, symBinAddr: 0x100003164, symSize: 0x60 }
+  - { offset: 0x1FC, size: 0x8, addend: 0x0, symName: _faktorial, symObjAddr: 0x688, symBinAddr: 0x1000031C4, symSize: 0x78 }
+  - { offset: 0x224, size: 0x8, addend: 0x0, symName: _deretAritmatika, symObjAddr: 0x700, symBinAddr: 0x10000323C, symSize: 0x9C }
+  - { offset: 0x280, size: 0x8, addend: 0x0, symName: _menu, symObjAddr: 0x79C, symBinAddr: 0x1000032D8, symSize: 0xC0 }
+  - { offset: 0x295, size: 0x8, addend: 0x0, symName: _konversiSuhu, symObjAddr: 0x85C, symBinAddr: 0x100003398, symSize: 0x190 }
+  - { offset: 0x2D5, size: 0x8, addend: 0x0, symName: _luasBangunDatar, symObjAddr: 0x9EC, symBinAddr: 0x100003528, symSize: 0x194 }
+  - { offset: 0x331, size: 0x8, addend: 0x0, symName: _skalaPeta, symObjAddr: 0xB80, symBinAddr: 0x1000036BC, symSize: 0xC8 }
+...
